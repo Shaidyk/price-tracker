@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.Python
+
+# --- Django ---
+*.log
+db.sqlite3
+local_settings.py
+/static/
+/media/
+/staticfiles/
+
+# --- Окружение/секреты ---
+.env
+.env.*
+!.env.example
+
+# --- Инструменты ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+.idea/
+.vscode/

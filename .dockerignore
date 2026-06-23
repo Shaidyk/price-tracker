@@ -1,0 +1,31 @@
+# Git / VCS
+.git
+.gitignore
+
+# Виртуальные окружения
+.venv
+venv
+env
+
+# Python-артефакты
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+
+# Кэши инструментов
+.pytest_cache
+.mypy_cache
+.ruff_cache
+htmlcov
+.coverage
+coverage.xml
+
+# Локальное окружение/секреты
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea
+.vscode
